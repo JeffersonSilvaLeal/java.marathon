@@ -1,4 +1,4 @@
-package marathon.java.introduction;
+package maratona.java.introducao;
 
 public class HelloWorld {
 
