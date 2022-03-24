@@ -7,12 +7,15 @@ public class TiposPrimitivos {
 		/**
 		 * Existe 8 Tipos primitivos no java int , double, float, char, byte, short,
 		 * long, boolean
+		 * 
+		 * O tipo de casting explícito, ocorre em tempo de execução,
+		 * diferente do casting implícito, que é interpretado em tempo de compilação.
 		 */
 
-		int idade = 10;
+		int idade = (int) 1000000000L;
 		long numeroGrande = 100000;
-		double salarioDouble = 2000;
-		float salarioFloat = 2500;
+		double salarioDouble =(long) 2000.53;
+		float salarioFloat = (float)2500.00D;
 		byte idadeByte = 10;
 		short ano = 2012;
 		boolean ativo = true;
