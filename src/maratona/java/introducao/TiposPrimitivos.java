@@ -10,6 +10,9 @@ public class TiposPrimitivos {
 		 * 
 		 * O tipo de casting explícito, ocorre em tempo de execução,
 		 * diferente do casting implícito, que é interpretado em tempo de compilação.
+		 *
+		 * String é usado para entrada de caracteres tanto de texto como número
+		 * var Assume o valor que a variavel assume tanto número como texto
 		 */
 
 		int idade = (int) 1000000000L;
@@ -20,7 +23,14 @@ public class TiposPrimitivos {
 		short ano = 2012;
 		boolean ativo = true;
 		char sexo = 'M';
-
+		
+		String nome = "JeffersonSilvaLeal";
+		
+		var nomeVar = "Patricia Rosa";
+		var idadeVar = 21;
+		
+		
+		
 		
 		System.out.println("Tipos de dados em Java: \n" +
 	            "\nMenor Byte: " + Byte.MIN_VALUE +
@@ -35,6 +45,9 @@ public class TiposPrimitivos {
 	            "\nMaior Float: " + Float.MAX_VALUE +
 	            "\nMenor Double: " + Double.MIN_VALUE +
 	            "\nMaior Double: " + Double.MAX_VALUE);
+		
+		System.out.println("Seu nome é: " + nome);
+		System.out.println("Seu nome é: " + nomeVar + " ,e sua idade: " + idadeVar);
 	}
 
 }
