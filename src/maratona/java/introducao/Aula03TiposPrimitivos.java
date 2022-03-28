@@ -1,6 +1,6 @@
 package maratona.java.introducao;
 
-public class TiposPrimitivos03 {
+public class Aula03TiposPrimitivos {
 
 	public static void main(String[] args) {
 

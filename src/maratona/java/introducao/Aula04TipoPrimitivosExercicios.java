@@ -9,7 +9,7 @@ package maratona.java.introducao;
  *	Eu <nome>, estou morando no endereço <endereço>,
  *  confirmo que recebi o salário de <salário>, na <data>.
  */
-public class tipoPrimitivosExercicios04 {
+public class Aula04TipoPrimitivosExercicios {
 
 	public static void main(String[] args) {
 		

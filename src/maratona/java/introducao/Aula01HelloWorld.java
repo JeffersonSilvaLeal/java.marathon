@@ -1,6 +1,6 @@
 package maratona.java.introducao;
 
-public class HelloWorld01 {
+public class Aula01HelloWorld {
 
 	public static void main(String[] args) {
 
