@@ -1,6 +1,6 @@
 package maratona.java.introducao;
 
-public class Comentario {
+public class Comentario02 {
 	
     /**
      * Existe 3 tipos de comentário no java:
