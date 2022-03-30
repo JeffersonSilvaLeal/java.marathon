@@ -89,6 +89,45 @@ public class Aula05Operadores {
 		System.out.println("isPlaystationCincoCompravel " + isPlaystationCincoCompravel);
 		
 		
+		/**
+		 * Operadores de atribuição
+		 * = igual
+		 * += mais igual
+		 * -= menos igual
+		 * *= multiplicaar igual
+		 * /= divisão igual
+		 * %= resto igual
+		 */
 		
+		System.out.println("------------------------");
+		System.out.println("Operadores de atribuição");
+		double bonus = 1000;
+		bonus += 1000;
+		bonus -= 1000;
+		bonus *= 2;
+		bonus /= 2;
+		bonus %= 2;
+
+		System.out.println(bonus);
+		
+		System.out.println("---------------");
+		System.out.println("Operador unário");
+		/**
+		 * Operadores unários
+		 */
+		int contador = 0;
+		/**
+		 * Incrementa depois da váriavel
+		 */
+		contador += 1;
+		contador ++;
+		
+		/**
+		 * incrementa antes da váriavel
+		 */
+		contador --;
+		++contador;
+		--contador;
+		System.out.println(contador);
 	}
 }
