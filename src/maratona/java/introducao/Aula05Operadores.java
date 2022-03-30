@@ -26,7 +26,7 @@ public class Aula05Operadores {
 		System.out.println("Resultado é: " + multiplicacao);
 		
 		System.out.println("------------------------------");
-		System.out.println("Operadores lógicos");
+		System.out.println("Operadores Relacionais");
 		/*
 		 * % Operador Resto
 		 * 
@@ -61,5 +61,34 @@ public class Aula05Operadores {
 		
 		boolean isDezDiferentevinte = 10 != 20;
 		System.out.println("isDezDiferentevinte " + isDezDiferentevinte);
+		
+		System.out.println("------------------------------------------");
+		System.out.println("Operadores Lógicos");
+		
+		/**
+		 * Operadores lógicos Introdução
+		 * && (And) 
+		 * || (or )
+		 * !  (not)
+		 */
+	
+		System.out.println("Operador &&");
+		int idade = 19;
+		double salario = 4500;
+		
+		boolean isMaiorDeIdade = idade >= 18 && salario >= 4000;
+		boolean IsMenorDeIdade = idade <= 18 && salario >= 3000; 
+		System.out.println("isMaiorDeIdade " + isMaiorDeIdade);
+		System.out.println("IsMenorDeIdade " + IsMenorDeIdade);
+		
+		System.out.println("Operador ||");
+		double valorTotalContaCorrente = 200;
+		double valorTotalContaPoupança = 10000;
+		float valorPlaytation = 5000;
+		boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaytation || valorTotalContaPoupança > valorPlaytation;
+		System.out.println("isPlaystationCincoCompravel " + isPlaystationCincoCompravel);
+		
+		
+		
 	}
 }
