@@ -8,6 +8,9 @@ package model;
  */
 public class Estudante {
 
+	/**
+	 * Atributos
+	 */
 	public String nome;
 	public int idade;
 	public char sexo;
